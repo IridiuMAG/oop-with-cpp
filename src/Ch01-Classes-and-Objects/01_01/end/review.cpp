@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;
 
 class Review
 {
   unsigned int rating;
-  std::string title;
-  std::string text;
+  string title;
+  string text;
 
   void displayDetails() const
   {
-    std::cout << "Rating: " << rating << "/5\nTitle: " << title << "\nText: " << text << std::endl;
+    cout << "Rating: " << rating << "/5\nTitle: " << title << "\nText: " << text << endl;
   }
 };
