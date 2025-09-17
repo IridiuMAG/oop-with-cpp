@@ -20,6 +20,7 @@ public:
   {
     cout << "Location: " << location << " Room Temperature: " << temperature << "°C Mode: " << (mode == 0 ? "OFF" : (mode == 1 ? "COOLING" : "HEATING")) << endl;
   }
+
 private:
   float temperature;
   unsigned int mode;
